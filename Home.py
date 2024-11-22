@@ -65,14 +65,14 @@ with st.sidebar.container():
 
 # Load the appropriate page based on the selected item
 if st.session_state.current_page == "About Me":
-    with open("/Users/SHAD/Downloads/shahad-portifolio/views/about.py") as f:
+    with open("views/about.py") as f:
         exec(f.read())
 elif st.session_state.current_page == "Highlights":
-    with open("/Users/SHAD/Downloads/shahad-portifolio/views/extracurriculars.py") as f:
+    with open("views/extracurriculars.py") as f:
         exec(f.read())
 elif st.session_state.current_page == "Resume":
     st.subheader("My Resume")
-    resume_path = "/Users/SHAD/Downloads/shahad-portifolio/pdf_files/ShahadHatim_Resume_Template.pdf"
+    resume_path = "pdf_files/ShahadHatim_Resume_Template.pdf"
 
     # Check if file exists
     try:

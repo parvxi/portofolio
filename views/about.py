@@ -139,7 +139,7 @@ Let's connect and bring visionary ideas to life—together, we can create someth
 about = AboutMe(
     title="About Me",
     about=description,
-    img="/Users/SHAD/Downloads/shahad-portifolio/img/profile.png",
+    img="img/profile.png",
     width=700
 )
 about.display()
