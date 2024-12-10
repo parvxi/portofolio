@@ -72,7 +72,7 @@ elif st.session_state.current_page == "Highlights":
         exec(f.read())
 elif st.session_state.current_page == "Resume":
     st.subheader("My Resume")
-    resume_path = "pdf_files/ShahadHatim_Resume_Template.pdf"
+    resume_path = "ShahadHatim_Resume_Template.pdf"
 
     # Check if file exists
     try:
